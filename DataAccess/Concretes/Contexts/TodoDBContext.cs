@@ -6,6 +6,10 @@ namespace DataAccess.Concretes.Contexts
 {
     public class TodoDBContext : DbContext
     {
+        public TodoDBContext()
+        {
+        }
+
         public TodoDBContext(DbContextOptions<TodoDBContext> options) : base(options)
         {
             
